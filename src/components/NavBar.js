@@ -7,8 +7,6 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import githubIcon from '../assets/img/githubIcon.svg'
 import BUSCEMIflat from '../assets/img/BUSCEMIflat.svg'
-import { Link } from 'react-router-dom';
-
 
 export const NavBar = () => {
     

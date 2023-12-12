@@ -2,8 +2,7 @@ import './App.css';
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import { NavBar } from './components/NavBar';
 import { NavBar2 } from './components/NavBar2';
