@@ -177,6 +177,7 @@ span.navbar-text {
 
 .navbar-text button:hover {
   color: #121212;
+  background-color: #fff;
 }
 
 .navbar-text button:hover::before {

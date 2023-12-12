@@ -22,6 +22,7 @@ const texts = ["Full Stack Developer", "Software Engineer", "Web Designer" /*"So
         const intervalId = setInterval(changeText, 3000);
 
         return () => clearInterval(intervalId);
+        // eslint-disable-next-line
     }, [currentText]);
 
     

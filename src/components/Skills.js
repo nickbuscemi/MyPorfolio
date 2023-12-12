@@ -2,10 +2,6 @@
 import { Row, Col, Container } from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css'
-import htmlIcon from '../assets/img/techIcons/htmlIcon.svg'
-import javaScriptIcon from '../assets/img/techIcons/icons8-javascript.svg'
-import cssIcon from '../assets/img/techIcons/icons8-css.svg'
-import reactIcon from '../assets/img/techIcons/icons8-react-native.svg'
 import { skillsObj } from '../data/skillsData';
 
 export const Skills = () => {
@@ -28,14 +24,6 @@ export const Skills = () => {
             items: 1
         },
     };
-
-    const technologies = [
-        { imgSrc: htmlIcon, name: "HTML" },
-        { imgSrc: javaScriptIcon, name: "JavaScript" },
-        { imgSrc: cssIcon, name: "CSS" },
-        { imgSrc: reactIcon, name: "React" },
-        // Add more technologies here...
-    ];
 
     return (
         <section className="skill" id="skills">
