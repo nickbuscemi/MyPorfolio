@@ -21,7 +21,7 @@ export const Projects2 = () => {
             <Container>
                 <h3>Recent Projects</h3>
                     <Row xs={1} md={2} className="g-4">
-                    {projects.slice(-4).map((project, idx) => (
+                    {projects.slice(0,4).map((project, idx) => (
                         <Col key={idx} onClick={() => handleCardClick(idx)}>
                             <Link to={project.link} style={{ textDecoration: 'none' }}>
                             <Card>

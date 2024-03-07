@@ -35,7 +35,7 @@ const texts = ["Full Stack Developer", "Software Engineer", "Web Designer" /*"So
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hello I'm Nick.`}</h1>
                         <h1 className={`wrap ${fade ? 'fade' : ''}`}>{currentText}</h1>
-                        <p>I am a Web Developer open to work on anything.  Browse through my recent projects and feel free to reach out to collaborate!</p>
+                        <p>Browse through my recent projects and feel free to reach out to collaborate!</p>
                         <button onClick={() => console.log('connect')}>let's Create<ArrowRightCircle size={25} /> </button>
                     </Col>
                     <Col xs={12} m={6} xl={5}>

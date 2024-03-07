@@ -419,7 +419,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider .item img {
-  width: 50%;
+  height: 100px; /* Fixed height for consistency */
+  width: auto; /* Adjust width automatically to maintain aspect ratio */
+  object-fit: cover; /* Cover the area without losing aspect ratio */
   margin: 0 auto 15px auto;
 }
 
@@ -463,6 +465,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
   background-color: black;
+}
+.project .row {
+  justify-content: center;
 }
 .all-project {
   padding: 130px 0;
@@ -548,9 +553,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  display: flex;
+  height: 400px;
 }
 
 .proj-imgbx::before {

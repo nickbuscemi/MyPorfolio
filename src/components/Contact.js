@@ -83,12 +83,12 @@ export const Contact = () => {
                 </TrackVisibility>
               </Col>
               <Col md={6}>
-                {/*<div className="personal-info">
+                <div className="personal-info">
                   <h3>Nicholas Buscemi</h3>
-                    <p>Email: nick.buscemi13@gmail.com</p>
-                    <p>Phone: (631) 316-5618</p>
-                    <p>Mailing Address: 253 North Syracuse Avenue, Massapequa , New York 11758</p>
-                </div>*/}
+                    <p>nick.buscemi13@gmail.com</p>
+                    <p>(631) 316-5618</p>
+                    <p>253 North Syracuse Avenue, Massapequa , New York 11758</p>
+                </div>
               </Col>
             </Row>
           </Container>

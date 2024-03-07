@@ -9,7 +9,6 @@ import { NavBar2 } from './components/NavBar2';
 import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
-import { Newsletter } from './components/Newsletter';
 import { Footer } from './components/Footer';
 import { Projects2 } from './components/Projects2';
 import { ProjectsAll }  from './components/ProjectsAll';
@@ -27,7 +26,6 @@ function App() {
               <Skills />
               <Projects2 />
               <Contact />
-              <Newsletter />
             </>
           } />
           <Route path="/projects-all" element={

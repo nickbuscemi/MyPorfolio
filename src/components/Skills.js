@@ -41,17 +41,6 @@ export const Skills = () => {
                                     </div>
                                 ))}
                             </Carousel>
-                            {/*<h3>Technologies Used</h3>
-                            <Row className="mt-4">
-                            {technologies.map((tech, index) => (
-                                <Col xs={12} sm={6} md={4} lg={3} className="tech-item" key={index}>
-                                    <div className="tech-icon">
-                                        <img src={tech.imgSrc} alt={tech.name} />
-                                    </div>
-                                    <h5 className="mt-2">{tech.name}</h5>
-                                </Col>
-                            ))}
-                            </Row>*/}
                         </div>
                     </Col>
                 </Row>
